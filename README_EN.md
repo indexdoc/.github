@@ -21,6 +21,20 @@ We specialize in the field of AI-driven document automation and enterprise knowl
 
 The following modules are open-source, free to use, modify, and distribute. Each module can be deployed independently or combined according to needs to adapt to various scenarios, helping developers quickly solve practical pain points.
 
+## Catalogue
+
+- [1. indexdoc-batch-generator（Batch Document Assistant）](https://github.com/indexdoc/indexdoc-batch-generator)
+
+- [2. indexdoc-model-to-code（Code Generator / CodeAsst）](https://github.com/indexdoc/indexdoc-model-to-code)
+
+- [3. indexdoc-ai-offline（Local Document AI Assistant）](https://github.com/indexdoc/indexdoc-ai-offline)
+
+- [4. indexdoc-legal-assistant（Judgment Document Assistant）](https://github.com/indexdoc/indexdoc-legal-assistant)
+
+- [5. indexdoc-editor（Markdown Editor）](https://github.com/indexdoc/indexdoc-editor)
+
+
+
 ### 1. indexdoc-batch-generator (Batch Document Assistant)
 
 A template-driven efficient batch document generation tool, specially designed to solve the pain points of 「repetitive document editing and inconsistent formatting」. With one click, you can batch generate standardized professional documents, completely eliminating tedious copy-paste work.
