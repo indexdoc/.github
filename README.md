@@ -2,7 +2,7 @@
   <strong>简体中文</strong> |  <a href="README_EN.md">English</a>
 </div>
 
----# IndexDoc 系列开源工具集
+# IndexDoc 系列开源工具集
 
 IndexDoc 是一套面向办公与开发场景的开源工具合集，聚焦「高效提效、简化流程、隐私安全」三大核心，覆盖文档批量生成、代码标准化生成、本地文档AI交互、法律文书辅助、Markdown编辑五大高频场景，助力个人与团队告别重复劳动，提升工作与开发效率。
 
