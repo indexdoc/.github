@@ -3,35 +3,47 @@
 </div>
 
 ---
-# IndexDoc Open Source Toolkit
+# IndexDoc Open Source Toolkit & Enterprise Solutions
 
-IndexDoc is a collection of open-source tools for office and development scenarios, focusing on three core values: 「Efficiency Improvement, Process Simplification, and Privacy Security」. It covers five high-frequency scenarios: batch document generation, standardized code generation, local document AI interaction, legal document assistance, and Markdown editing, helping individuals and teams eliminate repetitive work and improve work and development efficiency.
+IndexDoc is an open-source toolkit and enterprise-grade AI product suite developed by **Hangzhou Zhiyu Digital Information Technology Co., Ltd.**, focusing on the three core values of 「Efficiency Improvement, Process Simplification, and Privacy Security」. It not only provides open-source tools suitable for office and development scenarios but also launches enterprise-level AI solutions for various industries, helping individuals, teams, and organizations eliminate repetitive work and comprehensively improve productivity.
 
-This open-source project includes the following core modules, which can be used independently or combined to adapt to various scenarios:
+## About Us
 
-## 1. indexdoc-batch-generator (Batch Document Assistant)
+📌 Author: Hangzhou Zhiyu Digital Information Technology Co., Ltd.
 
-A template-driven efficient batch document generation tool, specifically designed to solve the pain points of 「repetitive document editing and inconsistent formatting」. With one click, you can batch generate standardized professional documents, completely getting rid of tedious copy-paste work.
+📧 Email: indexdoc@qq.com
 
-### Core Advantages
+🌐 Official Website: https://www.indexdoc.com/
 
-- **High Efficiency & Convenience**: Automatically completes the entire document generation process without manual editing and replacement, greatly shortening the document production cycle and significantly improving work efficiency;
+We specialize in the field of AI-driven document automation and enterprise knowledge management, committed to deeply integrating AI technology with professional services to provide efficient, secure, and customizable solutions for office, development, legal, academic, government, and other fields. Our core advantages are reflected in 「AI + Professional Team Dual-Drive」, 「End-to-End Data Security Assurance」, and 「Efficient Response and Delivery」, balancing efficiency and quality to meet the diverse needs of different users.
 
-- **Eliminate Repetition**: Get rid of the tedious operation of repeatedly editing similar documents, focus energy on polishing core content, and save a lot of time costs;
+## Open-Source Core Modules (Free on GitHub)
 
-- **Accuracy & Error-Free**: Unified templates and replacement rules avoid human errors such as formatting chaos and content omissions caused by manual editing, ensuring document consistency;
+The following modules are open-source, free to use, modify, and distribute. Each module can be deployed independently or combined according to needs to adapt to various scenarios, helping developers quickly solve practical pain points.
 
-- **Flexible Adaptation**: Widely supports various document types such as legal documents, business contracts, daily reports, and office notices, adapting to office needs of multiple industries.
+### 1. indexdoc-batch-generator (Batch Document Assistant)
 
-### Core Features
+A template-driven efficient batch document generation tool, specially designed to solve the pain points of 「repetitive document editing and inconsistent formatting」. With one click, you can batch generate standardized professional documents, completely eliminating tedious copy-paste work.
 
-Supports uploading Excel data files and Word template files. You can define the file name rules of the final generated documents and all fields to be replaced in the Word template through the Excel file; in the Word template, you only need to mark the content to be replaced in the form of 「{column name}」 (the column name is exactly the same as the corresponding column in the Excel file). After completing simple configurations and clicking the generate button, you can quickly batch generate all documents that meet the requirements, greatly reducing the time cost of manual editing.
+#### Core Advantages
 
-## 2. indexdoc-model-to-code (Code Generator / CodeAsst)
+- **High Efficiency & Convenience**: Automatically complete the entire document generation process without manual editing and replacement, greatly shortening the document production cycle and significantly improving work efficiency;
 
-CodeAsst (Code Assistant) is an efficient code generation tool for development teams and individuals. It follows the core design concept of 「Data Model + Template = Code」, aiming to realize batch code generation and standardized output, reduce repetitive coding work, and improve development efficiency and code quality.
+- **Eliminate Repetitive Work**: Get rid of the tedious operation of repeatedly editing similar documents, focus on polishing core content, and save a lot of time and cost;
 
-### Core Features
+- **Reduce Human Errors**: Unified templates and replacement rules avoid human errors such as formatting chaos and content omissions caused by manual editing, ensuring document consistency;
+
+- **Flexible Application**: Widely supports various document types such as legal documents, contracts, reports, and office notices, adapting to the office needs of multiple industries.
+
+#### Core Features
+
+Supports uploading Excel data files and Word template files. The Excel file is used to define the file name rules of the finally generated documents and all fields to be replaced in the Word template; in the Word template, you only need to mark the content to be replaced in the form of 「{column name}」 (the column name is completely consistent with the corresponding column in Excel). After completing simple configuration, click the generate button to quickly batch generate all documents that meet the requirements, greatly reducing the time cost of manual editing.
+
+### 2. indexdoc-model-to-code (Code Generator / CodeAsst)
+
+CodeAsst (Coding Assistant) is an efficient code generation tool for development teams and individuals. It follows the core design concept of 「Data Model + Template = Code」, aiming to realize batch code generation and standardized output, reduce repetitive coding work, and improve development efficiency and code quality.
+
+#### Core Features
 
 - **Multi-Data Source Adaptation**: Supports importing PDM files generated by PowerDesigner, can obtain table models from various mainstream databases such as Oracle, MySQL, MS SQL Server, and PostgreSQL, and also supports manually editing and defining data models through XML files;
 
@@ -41,15 +53,15 @@ CodeAsst (Code Assistant) is an efficient code generation tool for development t
 
 - **Widely Applicable**: Suitable for various software companies, development studios, R&D teams and individual developers, especially for the development mode of 「designing data models first, then writing code」.
 
-### Tool Value
+#### Tool Value
 
 Data models are the foundation of software systems, and most system operations revolve around the addition, deletion, modification and query of basic data. After proficiently using CodeAsst, you can batch generate almost all basic codes of a system; furthermore, you can quickly batch generate Demo versions of multiple systems based on the code templates of existing systems, helping developers quickly launch projects and reduce development costs — this is not an exaggeration, but the core capability that CodeAsst has realized.
 
-## 3. indexdoc-ai-offline (Local Document AI Assistant)
+### 3. indexdoc-ai-offline (Local Document AI Assistant)
 
 A lightweight, efficient, and privacy-first local document AI interaction tool, presented in the form of a client. It focuses on solving the needs of 「accurate Q&A and key information extraction for local documents」. You can realize intelligent interaction between humans and documents without uploading documents to third-party platforms, balancing efficiency and privacy security.
 
-### Core Advantages
+#### Core Advantages
 
 - **Natural Interaction**: No tedious operations are required; you can quickly obtain relevant information by asking questions to the document in daily conversation, and it is easy to get started;
 
@@ -61,24 +73,174 @@ A lightweight, efficient, and privacy-first local document AI interaction tool, 
 
 - **Knowledge Management**: Can structurally organize document knowledge, helping individuals and enterprises build exclusive knowledge sharing platforms and improve knowledge reuse efficiency.
 
-### Core Features
+#### Core Features
 
 Supports uploading various common document formats such as PDF, TXT, and DOCX, and can batch upload multiple files; after uploading, you can freely select a single file or folder, and the AI will only respond based on the content of the selected files, avoiding interference from irrelevant information and improving Q&A accuracy; it supports asking personalized questions for selected files, quickly responding to interpretation needs, and also supports saving Q&A history for subsequent review and reference. With a concise interface and no complex configuration, it focuses on core functions and meets various local document interaction scenarios.
 
-## 4. indexdoc-legal-assistant (Legal Document Assistant)
+### 4. indexdoc-legal-assistant (Judgment Document Assistant)
 
 A document assistance tool specially designed for legal practitioners, simplifying the judgment document production process, improving document generation efficiency and standardization, and adapting to daily office needs of legal scenarios such as courts and law firms.
 
-### Core Process
+#### Core Process
 
 Upload 「Indictment」 and 「Court Record」 (supports common file formats such as PDF and DOCX, and provides sample files for quick reference) → The tool automatically generates a preliminary judgment document → Supports manual editing and modification of the generated document content → Preview the document effect and export the final version. The entire process simplifies operations and reduces the workload of manual writing.
 
-## 5. indexdoc-editor (Markdown Editor)
+### 5. indexdoc-editor (Markdown Editor)
 
 A lightweight, concise Markdown editing tool suitable for developers and office workers, focusing on the core needs of 「efficient editing, convenient preview, and standardized formatting」. It supports full Markdown syntax and adapts to various Markdown document editing scenarios (such as project documents, notes, README, etc.). It will continue to be iterated and optimized in the future, adding more practical functions (such as format export, shortcut key customization, etc.), helping users quickly edit high-quality Markdown documents.
 
+## Enterprise-Grade AI Products & Services
+
+In addition to open-source tools, we also provide a full range of enterprise-grade AI document products and customized services, covering individuals, small and medium-sized enterprises, and large organizations, and creating exclusive solutions combined with industry characteristics.
+
+### I. Personal AI Workstation
+
+It runs completely locally and can be experienced for free, creating an intelligent knowledge management center of your own. Adopting a hybrid architecture of 「local document storage + local parsing + cloud dialogue computing power」, it balances operational performance and data security, without worrying about privacy leakage. The workstation provides entrances to mainstream AI platforms currently available, Local Document AI Assistant (enhanced version of the open-source module), Markdown Editor (enhanced version of the open-source module), AI Legal Assistant that can help write legal documents, Thesis Assistant that can help reduce repetition rate and AI traces, and Multi-Login Assistant that can improve user work efficiency.
+
+✅ System Support: Currently supports Windows system; in the future, it will gradually support Linux, Macos, and domestic operating systems (deeply adapted and optimized for mainstream domestic systems such as Kylin, UOS, and China Standard Software, conforming to the local application ecology).
+
+✅ Extended Capabilities: Can connect to enterprise-level knowledge bases, supports multi-level permission management systems for departments, roles, and users, and implements fine-grained permission control over knowledge bases, directories, and documents, perfectly adapting to collaboration scenarios of large and medium-sized enterprises.
+
+### II. AI Avatar
+
+Based on the behaviors and data accumulated during daily use, it creates a personalized AI model through offline training, comprehensively replicating your thinking mode, usage habits, and knowledge reserve, becoming an AI avatar that can replace you to handle some affairs and fit your personal characteristics, truly realizing 「freeing hands and efficient empowerment」.
+
+#### Core Features
+
+1. Personalized Model Training: Train an exclusive AI model offline based on your daily behavior data. All data is processed locally, so there is no need to worry about privacy issues; the model will continuously learn your preferences and habits, becoming more intelligent and personalized.
+
+2. Intelligent Dialogue Interaction: Precisely imitate your language style and thinking mode, and can communicate naturally and fluently with others on your behalf. Whether it is business communication or daily chat, it can maintain a consistent expression style and reduce communication costs.
+
+3. Task Automation: Replace you to complete repetitive daily tasks such as email replies, schedule arrangements, and document sorting, freeing your time and energy to focus on more valuable core work.
+
+4. Privacy & Security Assurance: All data processing is completed locally on the user's device, combined with enterprise-level encryption technology to prevent any unauthorized access, fundamentally ensuring the absolute security of personal information and behavior data.
+
+#### Technical Advantages
+
+- Advanced Algorithm Model: Adopts the latest deep learning algorithms combined with transfer learning technology, which can quickly adapt to the characteristics of different users, realize highly personalized model training, and ensure that the AI avatar is highly consistent with the user.
+
+- Privacy Protection Design: The entire process of data processing is completed locally, without uploading to the cloud. End-to-end encryption technology prevents third parties from obtaining user data, balancing convenience and security.
+
+- Efficient Operational Performance: The optimized model architecture can run smoothly on ordinary hardware devices without high-end computing resources; intelligent resource scheduling ensures that it does not affect the performance of other applications on the device.
+
+- Continuous Learning Ability: The model has adaptive continuous learning ability, which can continuously optimize and iterate with changes in user behavior, and always keep highly synchronized with the user's latest state.
+
+### III. AI Document Tools
+
+A document processing suite integrated with AI capabilities, realizing intelligent upgrading of document interaction and batch processing, covering high-frequency scenarios such as document Q&A and batch generation, adapting to the diverse document processing needs of individuals and enterprises.
+
+#### Core Modules
+
+1. Chat with Documents: Use AI technology to realize intelligent interaction between humans and documents. Ask questions to documents in a natural dialogue way to accurately obtain relevant information and answers, without manual browsing and searching, greatly improving the efficiency of document reading and use.
+
+   - Natural Interaction: No tedious operations are required; communicate with documents in a dialogue way, easy to get started;
+
+   - Accurate Q&A: Powerful semantic understanding ability to accurately identify user intentions and quickly match key information;
+
+   - In-Depth Analysis: Supports complex information extraction and in-depth content mining, sorts out document logic, and extracts core viewpoints;
+
+   - Knowledge Management: Structurally organize document knowledge to help build enterprise-level knowledge sharing platforms and improve knowledge reuse rate.
+
+2. Batch Document Assistant (Enhanced Version of Open-Source Module): On the basis of the open-source version, it adds enterprise-level adaptation capabilities, supports more template formats and more complex field replacement rules, adapting to the large-volume and high-standard document generation needs of enterprises (the core functions of the open-source version have been detailed earlier).
+
+### IV. Efficiency Tools Collection
+
+A collection of practical tools to optimize office processes, focusing on multi-scenario efficiency pain points, with lightweight design and easy-to-use features, helping individuals and teams improve office efficiency.
+
+- Multi-Login Assistant: A safe and stable multi-account login tool that supports simultaneous login of multiple social and office accounts, realizing convenient separation management of work and life.
+
+- Markdown Editor (Enhanced Version of Open-Source Module): On the basis of the open-source version, it adds AI grammar check and format optimization functions, supports real-time preview, and perfectly meets the needs of technical writing and document editing.
+
+- Local File Search Tool: A retrieval system based on AI semantic understanding, supporting keyword association, accurate content matching and quick positioning, getting rid of inefficient manual search and saving search time.
+
+- Document Comparison Tool: Intelligently compare the differences between multiple versions of documents, highlight the added, deleted and modified parts, support multiple formats, and is suitable for version management and proofreading scenarios.
+
+- Compression Tool: A high-speed and stable compression package processing tool that supports AI content recognition, previews key files and decompresses selectively, saving device storage space.
+
+### V. Document Services
+
+AI-driven professional document customization and optimization services, covering academic, legal, educational, technological and other fields, combining AI intelligent generation with professional team review, balancing efficiency and quality, and solving various document creation pain points.
+
+#### Full-Scenario Document Services
+
+- Thesis Assistance: Provide topic selection analysis, literature retrieval, framework suggestions and chart generation services, covering the entire academic research process, helping to improve the efficiency and quality of thesis creation.
+
+- Thesis Rewriting (Anti-Plagiarism): Through AI semantic reconstruction technology, optimize the expression method on the basis of completely retaining the original meaning, reduce the repetition rate, and ensure academic rigor.
+
+- Professional Technical Document Writing: Customize technical white papers, product manuals and other documents for technology enterprises, ensuring professionalism through industry terminology libraries and AI writing models.
+
+- Lesson Plan Assistance: Generate teaching outlines, courseware materials and exercise analysis based on subject knowledge graphs, helping teachers quickly complete lesson plan design.
+
+- Indictment Writing: For the legal industry, extract case elements and match legal provisions through AI to assist in generating standardized indictment texts with a clear structure, improving the efficiency of legal document production.
+
+- Remove AI Traces: Perform semantic polishing and style adjustment on AI-generated content, simulate manual writing habits, and avoid identification by content detection systems.
+
+#### Service Advantages
+
+- AI + Professional Team Dual-Drive: AI intelligent generation improves efficiency, and industry expert review controls quality, ensuring the professionalism and accuracy of documents;
+
+- End-to-End Data Security Assurance: Adopt encrypted transmission and local processing technology to strictly protect user document privacy and refuse data leakage risks;
+
+- Efficient Response and Delivery: Support priority processing of urgent needs, and complete simple document services in as fast as 30 minutes, greatly shortening the traditional creation cycle.
+
+### VI. Enterprise-Grade AI Products (Industry-Specific Custom Solutions)
+
+Customized AI products tailored to the characteristics of various industries, focusing on core enterprise needs, providing enterprise-level capabilities such as private deployment and permission control, helping enterprises achieve digital transformation.
+
+#### Core Products
+
+1. Enterprise-Grade AI Knowledge Base: A knowledge management platform that supports private deployment, integrating core functions such as permission control, knowledge precipitation, and intelligent recommendation, helping enterprises build a moat of knowledge assets and realize efficient management and reuse of knowledge.
+
+2. Judgment Document Assistant (Enterprise Enhanced Version): On the basis of the open-source version, it adds OCR recognition, similar case retrieval, legal key point extraction and other functions, and quickly parses judgment document elements through legal AI models, adapting to the efficient office needs of professional legal institutions such as courts and law firms.
+
+3. AI Document Assistant: Covers all scenarios of enterprise daily office, automatically generates various documents such as contracts, reports, and emails, supports custom templates and intelligent error correction, and greatly improves enterprise administrative efficiency.
+
+4. Government Document AI Manager: Specially designed for government agencies, integrating policy libraries, official document templates and format verification functions, realizing standardized and intelligent generation and management of government documents, adapting to government office specifications.
+
+#### Enterprise Application Value
+
+- Improve Team Collaboration Efficiency: Through AI automation of repetitive work, release employees' time and energy to focus on high-value tasks, helping enterprises improve average efficiency by more than 40%;
+
+- Reduce Enterprise Operating Costs: Reduce costs related to manual document processing and knowledge management, and small and medium-sized enterprises can save 200,000 to 500,000 yuan annually;
+
+- Ensure Knowledge Asset Security: Unified management of enterprise knowledge documents, avoiding knowledge loss caused by personnel turnover, and building core competitiveness of enterprises.
+
+### VII. AI Product Customization Services
+
+Provide full-process customization services from demand analysis, model training to system deployment for special enterprise needs, tailor-made AI solutions adapted to enterprise business scenarios, helping enterprises achieve in-depth integration of AI and business.
+
+#### Our Customization Capabilities
+
+- Industry-Specific AI Model Customization: For the characteristics of various industries such as finance, medical care, and manufacturing, train exclusive AI models containing industry professional terms and business logic to adapt to core industry needs;
+
+- Enterprise System Integration Development: Seamlessly integrate with enterprise's existing OA, CRM, ERP and other systems to realize in-depth integration of AI capabilities and business processes without reconstructing existing systems;
+
+- Private Deployment & Security Solutions: Provide enterprise-level security assurance solutions such as local server deployment, encrypted data transmission, and hierarchical permission management to ensure enterprise data security;
+
+- Multi-End Application Development Support: Support the development and adaptation of multi-platform applications such as Web, mobile terminals (iOS/Android), and desktop terminals (Windows/Mac) to meet the multi-scenario use needs of enterprises.
+
+#### Customized Solution Process
+
+1. Demand Analysis and Scenario Definition: A professional team conducts in-depth research on enterprise business scenarios, clarifies AI application goals, formulates feasible solutions and technical roadmaps, ensuring that the solutions fit the actual needs of enterprises;
+
+2. Model Training and Solution Development: Train customized AI models based on enterprise-specific data and business rules, develop integrated systems, and provide phased Demo verification for timely adjustment and optimization;
+
+3. Deployment, Testing and Optimization Iteration: Complete system deployment and employee training, polish products through testing in actual application scenarios, and provide continuous iteration and upgrading services to ensure that the solutions are long-term adapted to enterprise development.
+
 ## Future Plans
 
-This project will continue to be iterated and optimized, constantly improving the functions of each module, fixing known issues, and adding more practical functions adapted to office and development scenarios based on user feedback, striving to build a more comprehensive, efficient, and easy-to-use open-source toolset.
+### Open-Source Roadmap
 
-Welcome all developers to Star and Fork this project, participate in code contribution, and put forward valuable suggestions to improve the IndexDoc series of tools together!
+Continuously iterate and optimize the 5 open-source core modules, fix known issues, add practical functions based on user feedback, improve open-source documents and community support, build a more user-friendly and comprehensive open-source toolkit, and welcome global developers to participate in the co-construction.
+
+### Enterprise Solution Roadmap
+
+Expand industry coverage, enhance product customization capabilities, optimize multi-end adaptation experience, promote in-depth integration of AI technology with more industry business scenarios, and provide enterprises with more efficient, secure and demand-oriented intelligent solutions.
+
+## Contribution & Contact
+
+Welcome all developers to Star and Fork this open-source project, participate in code contribution, and put forward valuable suggestions to improve the IndexDoc series of tools together!
+
+📧 Open-Source Consultation / Enterprise Cooperation: indexdoc@qq.com
+
+🌐 Learn More About Enterprise Products & Services: https://www.indexdoc.com/
