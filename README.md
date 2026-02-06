@@ -104,6 +104,20 @@ CodeAsst（编码助理）是一款面向开发团队与个人的高效代码生
 
 一款轻量、简洁、适配开发者与办公人群的Markdown编辑工具，聚焦「高效编辑、便捷预览、格式规范」核心需求，支持Markdown全语法，适配各类Markdown文档编辑场景（如项目文档、笔记、README等）。后续将持续迭代优化，新增格式导出、快捷键自定义等实用功能，助力用户快速编辑高质量Markdown文档。
 
+### 6. indexdoc-converter（文档转换器）
+
+indexdoc-converter 是一款基于 Python 开发的文档转换工具库，核心功能为将主流办公文档、网页文件高效转换为 Markdown 格式。各类型文件支持格式如下：
+
+ - Word 文档支持 .docx ；
+ - Excel 类表格文档支持 .xlsx、.xls、.ods、.csv、.tsv ；
+ - 网页文件支持 .html、.mhtml、.htm 及网页url ；
+ - PPT 演示文档支持 .pptx 。
+   
+该工具库现已发布至 PyPI（Python Package Index），可通过 pip 包管理工具快速安装并投入使用。
+
+### 7. indexdoc-vector（向量数据库）
+
+
 ## 企业级AI产品与服务
 
 除开源工具外，我们还提供全方位的企业级AI文档产品与定制化服务，覆盖个人、中小企业及大型组织，结合行业特性打造专属解决方案。
