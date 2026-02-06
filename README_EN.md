@@ -110,6 +110,17 @@ A lightweight, concise Markdown editing tool suitable for developers and office 
 
 In addition to open-source tools, we also provide a full range of enterprise-grade AI document products and customized services, covering individuals, small and medium-sized enterprises, and large organizations, and creating exclusive solutions combined with industry characteristics.
 
+### 6. indexdoc-converter (Document Converter)
+indexdoc-converter is a Python-based document conversion tool library, whose core function is to efficiently convert mainstream office documents and web files into Markdown format. The supported formats for various types of files are as follows:
+- Word documents: .docx
+- Excel-style spreadsheet documents: .xlsx, .xls, .ods, .csv, .tsv
+- Web files: .html, .mhtml, .htm and web URLs
+- PPT presentation documents: .pptx
+
+This tool library has been released on the Python Package Index (PyPI) and can be quickly installed and used via the pip package manager.
+
+### 7. indexdoc-vector (Vector Database)
+
 ### I. Personal AI Workstation
 
 It runs completely locally and can be experienced for free, creating an intelligent knowledge management center of your own. Adopting a hybrid architecture of 「local document storage + local parsing + cloud dialogue computing power」, it balances operational performance and data security, without worrying about privacy leakage. The workstation provides entrances to mainstream AI platforms currently available, Local Document AI Assistant (enhanced version of the open-source module), Markdown Editor (enhanced version of the open-source module), AI Legal Assistant that can help write legal documents, Thesis Assistant that can help reduce repetition rate and AI traces, and Multi-Login Assistant that can improve user work efficiency.
