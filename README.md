@@ -33,6 +33,9 @@ IndexDoc 是由**杭州智予数信息技术有限公司**打造的开源工具�
 
 - [5. indexdoc-editor（Markdown编辑器）](https://github.com/indexdoc/indexdoc-editor)
 
+- [6. indexdoc-converter（文档转换器）](https://github.com/indexdoc/indexdoc-converter)
+
+- [7. indexdoc-vector（向量数据库）](https://github.com/indexdoc/indexdoc-vector)
 
 ### 1. indexdoc-batch-generator（批量文档助手）
 一款模板驱动的高效文档批量生成工具，专为解决「重复文档编辑、格式不统一」痛点设计，一键即可批量生成标准化专业文档，彻底告别繁琐的复制粘贴工作。
