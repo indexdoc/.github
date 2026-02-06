@@ -33,6 +33,9 @@ The following modules are open-source, free to use, modify, and distribute. Each
 
 - [5. indexdoc-editor（Markdown Editor）](https://github.com/indexdoc/indexdoc-editor)
 
+- [6. indexdoc-converter（File Converter）](https://github.com/indexdoc/indexdoc-converter)
+
+- [7. indexdoc-vector（Vector Database）](https://github.com/indexdoc/indexdoc-vector)
 
 
 ### 1. indexdoc-batch-generator (Batch Document Assistant)
