@@ -5,7 +5,7 @@
 ---
 # IndexDoc Open Source Toolkit & Enterprise Solutions
 
-IndexDoc is an open-source toolkit and enterprise-grade AI product suite developed by **Hangzhou Zhiyu Digital Information Technology Co., Ltd.**, focusing on the three core values of 「Efficiency Improvement, Process Simplification, and Privacy Security」. It not only provides open-source tools suitable for office and development scenarios but also launches enterprise-level AI solutions for various industries, helping individuals, teams, and organizations eliminate repetitive work and comprehensively improve productivity.
+IndexDoc is an open-source document toolset and enterprise-grade AI document product suite built by **Hangzhou ZhiyuShu Information Technology Co**., Ltd. It focuses on three core values: **efficiency improvement, process simplification, and privacy & security**.  It provides open-source tools tailored for office and development scenarios, as well as enterprise-level AI solutions for various industries. IndexDoc helps individuals, teams, and organizations eliminate repetitive work and comprehensively enhance productivity.
 
 ## About Us
 
